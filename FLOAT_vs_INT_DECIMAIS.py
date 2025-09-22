@@ -52,18 +52,69 @@ print("...........SOMA PRECOS 1 + 2 + 3 + 4................")
 print(preco1+preco2+preco3+preco4)
 print("____________EXE1-INPUT-PRECOS_________________")
 
-total = preco1+preco2+preco3+preco4
+#total_7 = preco1+preco2+preco3+preco4
+#print(total_7)
+
+print("____________IF-ELIF_________________")
+
+total = 75
+var = 89
+
+print(var)
 print(total)
 
-if total <= 0:
-    print("valor nulo")
+if total <= 200:
+    print("alfa")
 else:
-    print("OK")
+    print("beta")
 
-#if
-#elif
+if total <25:
+    print("<cc")
+elif total <50:
+    print("<bb")
+elif total <100:
+    print("<aa")
 
-#and or
+print("____________AND-OR_________________")
+
+total = 6
+var = 99
+
+print(f"total = {total}")
+print(f"var = {var}")
+
+#and
+if total >10 and var <50:
+    print("VAL_OK")
+else:
+    print("NULO_V")
+
+#or
+if total >75 or var <90:
+    print("samba[VERDADEIRO]")
+else:
+    print("caldo[FALSO]")
+
+print("____________##..AND-OR..##_________________")
+alfa = False
+delta = False
+
+#and + or
+print(f"total = {total}")
+print(f"var = {var}")
+print(f"alfa = {alfa}")
+print(f"delta = {delta}")
+
+if total >5 and var <100 and (alfa == True or delta == True):
+    print("STI_Verdadeiro")
+else:
+    print("STI_Falso")
+
+
+print("____________FIM_________________")
+
+
+
 
 
 
