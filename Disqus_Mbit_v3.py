@@ -27,6 +27,9 @@ def slugify(texto: str) -> str:
     # Substitui espaços por underline
     texto = re.sub(r'\s+', '_', texto)
 
+    # Substitui HÍFENS por underline
+    texto = re.sub(r'\-+', '_', texto)
+    
     # Remove múltiplos underlines
     texto = re.sub(r'_+', '_', texto)
 
@@ -43,3 +46,4 @@ while True:
     print(f"https://disqus.com/home/discussion/mbit/{url}")
 
 #Obrigado chatGPT!
+
