@@ -1,0 +1,3 @@
+https://www.learnpython.org/pt/
+\n QUEBRA LINHA
+""" ALT+SHIFT+A ATALHO PARA COMENTAR/DESCOMENTAR BLOCOS DE CODIGO! """
